@@ -10,3 +10,9 @@ y = input("Enter another number: ")
 
 # The input function returns a string, so we need to convert it to an integer or float for calculations
 print(f"The sum of {x} and {y} is: {int(x) + int(y)}")
+
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+
+# The input function returns a string, so we need to convert it to an integer or float for calculations
+print(f"The sum of {x} and {y} is: {x + y}")
