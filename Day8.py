@@ -20,3 +20,5 @@ print(fruit[-3:])  # Output: ana
 print(fruit[3:5])  # Output: na
 # slicing the first three characters of 'banana' using negative indexing
 print(fruit[-6:-3])  # Output: ban
+nm = "Harry"
+print(nm[-4:-2]) 
