@@ -26,3 +26,13 @@ print(checking2)
 print(checking.startswith('g'))  # Output: True (checking if the string starts with 'g')
 # now checking g is on which index
 print(checking2.index('g'))  
+
+
+# now checking isspace = "   "
+isspace_check = "\t"
+print(isspace_check.isspace()) 
+
+
+# Output: True (checking if the string contains only whitespace characters)
+# checking if the string is alphanumeric
+print(isspace_check.isalnum())  # Output: True (checking if the string is alphanumeric)
