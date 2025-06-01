@@ -36,3 +36,11 @@ print(isspace_check.isspace())
 # Output: True (checking if the string contains only whitespace characters)
 # checking if the string is alphanumeric
 print(isspace_check.isalnum())  # Output: True (checking if the string is alphanumeric)
+
+# check num 
+checknumber = "12345"
+print(checknumber.isdigit())  # Output: True (checking if the string contains only digits)
+
+# swapcase_check = "Hello World"
+swapcase_check = "Hello World"
+print(checknumber.swapcase()) 
