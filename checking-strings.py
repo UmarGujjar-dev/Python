@@ -44,3 +44,44 @@ print(checknumber.isdigit())  # Output: True (checking if the string contains on
 # swapcase_check = "Hello World"
 swapcase_check = "Hello World"
 print(checknumber.swapcase()) 
+
+
+
+
+
+
+
+# checking encode and decode 
+
+# Step 1: Define a string
+text = "Python is fun 😄"
+
+# Step 2: Encode it to bytes using UTF-8
+encoded = text.encode('utf-8')
+
+# Step 3: Print the encoded version
+print("Encoded:", encoded)
+
+# Step 4: Decode it back to string
+decoded = encoded.decode('utf-8')
+print("Decoded:", decoded)
+# Step 5: Check if the original and decoded strings are the same
+print("Original and decoded are the same:", text == decoded)
+
+
+# Ask user for input
+text = input("Enter any English text: ")
+
+# Encode to UTF-8
+encoded = text.encode('utf-8')
+
+# Show encoded byte string
+print("\nEncoded bytes:", encoded)
+
+# Show each byte in hex
+print("Byte-by-byte (hex values):")
+for byte in encoded:
+    print(hex(byte), end=" ")
+
+b= text
+print("\n\nDecoded string:", encoded.decode('utf-8'))

@@ -38,8 +38,6 @@ print(string.encode('utf-8'))  # Output: b'Hello, World!' (encodes the string to
 
 
 
-
-
 # 6. endswith()
 # 7. expandtabs()
 # 8. find()
