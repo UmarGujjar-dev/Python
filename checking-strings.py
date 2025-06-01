@@ -16,5 +16,13 @@ print(b.strip('!'))  # Output: Gujjar (removes leading and trailing '!', ',', an
 
 print(b.strip('!').replace('Gujjar', 'Umar Gujjar').upper())  
 
-checking = "gujjar"
+checking = "gujjarg"
 print(checking.islower())
+print(checking.isprintable()) 
+checking2 = checking.center(30, '-') 
+# checking lenth of checking string
+print(len(checking2))
+print(checking2) 
+print(checking.startswith('g'))  # Output: True (checking if the string starts with 'g')
+# now checking g is on which index
+print(checking2.index('g'))  
