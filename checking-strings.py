@@ -15,3 +15,6 @@ print(b.lstrip('!'))  # Output: Gujjar (removes leading '!')
 print(b.strip('!'))  # Output: Gujjar (removes leading and trailing '!', ',', and space)
 
 print(b.strip('!').replace('Gujjar', 'Umar Gujjar').upper())  
+
+checking = "gujjar"
+print(checking.islower())
