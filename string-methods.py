@@ -39,7 +39,15 @@ print(string.encode('utf-8'))  # Output: b'Hello, World!' (encodes the string to
 
 
 # 6. endswith()
+print(string.endswith("!"))
+
+
+
 # 7. expandtabs()
+
+
+
+
 # 8. find()
 # 9. format()
 # 10. format_map()
