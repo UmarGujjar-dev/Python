@@ -23,6 +23,6 @@
 name = "Umar"
 for b in name:
     print(b)
-for i in range(1, 25):   
+for i in range(1, 2001):   
     print(f"{i} -- {name}")
     
