@@ -25,4 +25,15 @@ for b in name:
     print(b)
 for i in range(1, 2001):   
     print(f"{i} -- {name}")
-    
+
+
+# 3rd parameter
+# range(start, stop, step)
+
+# Example 2: Count backwards from 10 to 1
+for i in range(10, -1, -1):
+    print(i)
+
+# Example 1: Count from 1 to 10 by 2s
+for i in range(1, 11, 2):
+    print(i)
