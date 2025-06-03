@@ -15,3 +15,10 @@ while i <= 10:
     print(i)
 
 print("Countdown complete!")
+
+
+# decrementing 
+count = 10
+while count >= 0:
+    print(count)
+    count -= 1
