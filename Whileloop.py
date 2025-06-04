@@ -27,8 +27,16 @@
 
 
 
-a = ("apple", "banana", "cherry", "date", "elderberry")
-i = 0
-while i < len(a):
-    print(a[i])
+# a = ("apple", "banana", "cherry", "date", "elderberry")
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i += 1
+
+
+# table print 
+a = int(input("Enter a number to print its multiplication table: "))
+i = 1
+while i <= 10:
+    print(f"{a} * {i} = {a * i}")
     i += 1
