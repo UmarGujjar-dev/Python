@@ -66,3 +66,14 @@ for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
     print((a * i).rjust(20))
 for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
     print((a * i))
+
+
+
+# pass statement 
+for i in range(5):
+    pass
+
+if i> 5:
+    pass
+
+print("This is a placeholder for future code.")
