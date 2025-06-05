@@ -59,21 +59,44 @@
 
 # Pyramid Pattern with Odd Numbers
 
-a = "*"
-for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
-    print((a * i).center(20))
-for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
-    print((a * i).rjust(20))
-for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
-    print((a * i))
+# a = "*"
+# for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
+#     print((a * i).center(20))
+# for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
+#     print((a * i).rjust(20))
+# for i in range(1, 21, 2):  # Start at 1, stop before 21, step by 2 (odd numbers)
+#     print((a * i))
 
 
 
 # pass statement 
-for i in range(5):
-    pass
+# for i in range(5):
+#     pass
 
-if i> 5:
-    pass
+# if i> 5:
+#     pass
 
-print("This is a placeholder for future code.")
+# print("This is a placeholder for future code.")
+
+
+# # sum of all numbers in a list
+# numbers = [1, 2, 3, 4, 5]
+# total = 0  
+# for num in numbers:
+#     total += num  # Add each number to the total
+#     print(f"Current number: {num}, Total so far: {total}")
+
+# sum = 0
+# n = 9
+# for i in range(1, n + 1):
+#     sum += i  
+
+# print(sum)
+
+n = 5
+sum = 1
+i = 1
+while i <= n:
+    sum *= i  # Add the current value of i to sum
+    i += 1  # Increment i by 1
+print(sum)
